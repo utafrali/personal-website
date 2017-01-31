@@ -15,6 +15,13 @@
   img: /static/assets/img/landing/jekyll.png
   desc: Jalpc is a simple, beautiful and swift theme for Jekyll. It has comprehensive function, it can be easily used and edited. It's adapted for many kinds devices.
 
+- name: IMGKit
+  i18n: imgkit
+  gh_user: jarrekk
+  repo: imgkit
+  img: /static/assets/img/landing/imgkit.png
+  desc: IMGKit is a Python 2/3 library which wrapper wkhtmltoimage utility to convert HTML to image using Webkit, input can be URLs, HTML files and string.
+
 - name: Jalpc-A
   i18n: angularjs
   gh_user: jarrekk
