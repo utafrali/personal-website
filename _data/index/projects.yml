@@ -1,49 +1,49 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
-# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+# Projects img uses css sprite, before add new projects you should generate sprite img and css file again.
 - name: Saplatform
   i18n: saplatform
   gh_user: jarrekk
   repo: saplatform
-  img: /static/assets/img/landing/saplatform.png
+  img: saplatform
   desc: Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.
 
 - name: Jalpc
   i18n: jalpc
   gh_user: jarrekk
   repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
+  img: jalpc
   desc: Jalpc is a simple, beautiful and swift theme for Jekyll. It has comprehensive function, it can be easily used and edited. It's adapted for many kinds devices.
 
 - name: IMGKit
   i18n: imgkit
   gh_user: jarrekk
   repo: imgkit
-  img: /static/assets/img/landing/imgkit.png
+  img: imgkit
   desc: IMGKit is a Python 2/3 library which wrapper wkhtmltoimage utility to convert HTML to image using Webkit, input can be URLs, HTML files and string.
 
 - name: Jalpc-A
   i18n: angularjs
   gh_user: jarrekk
   repo: Jalpc-A
-  img: /static/assets/img/landing/angularjs.png
+  img: jalpc-a
   desc: It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well.
 
 - name: Rsser
   i18n: rsser
   gh_user: jarrekk
   repo: Rsser
-  img: /static/assets/img/landing/rsser.png
+  img: rsser
   desc: Rsser is an Ionic application, with this application we can read news and articles freely, you can add rss address from the given list and add it manually.
 
 - name: LeetCode
   i18n: leetcode
   gh_user: kamyu104
   repo: LeetCode
-  img: /static/assets/img/landing/leetcode.png
+  img: leetcode
   desc: LeetCode is a website which has many valuable algorithmic questions, this is a project of kamyu104's, I forked it and added more solutions, if you like Python you can find fun from this project.
 
 - name: FamilyCODE Wchat
   i18n: familycode
-  img: /static/assets/img/landing/familycode.png
+  img: familycode
   desc: This is a shopping mall in wechat, it promotes gene detection. Since time is precious, I write this website with Django, jQuery, weui. This is WuxiNextcode's major product. You can scan project's picture by wechat.

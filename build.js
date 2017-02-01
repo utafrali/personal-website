@@ -106,7 +106,8 @@ indexCSSFilelist = [
 	'node_modules/animate.css/animate.css',
 	'node_modules/components-font-awesome/css/font-awesome.css',
 	'node_modules/font-mfizz/dist/font-mfizz.css',
-	'static/css/style.css'
+	'static/css/style.css',
+	'static/css/project-sprite.css'
 	]
 compresscss(indexCSSFilename, indexCSSFilelist)
 
