@@ -1,5 +1,5 @@
 <!-- jPages -->
-<script src="{{"/static/assets/jPage-20170125.min.js" | prepend: site.baseurl}}"></script>
+<script src="{{"/static/assets/jPage-20170201.min.js" | prepend: site.baseurl}}"></script>
 <script type="text/javascript">
 $(function(){
   /* initiate the plugin */
@@ -38,7 +38,7 @@ $(function(){
                                 <h2>{{ post.title }}</h2>
                             </a>
                             <div class="small m-b-xs">
-                                <strong>{{ site.author.name }}</strong> <span class="text-muted"><i class="fa fa-clock-o"></i> {{ post.date | date: "%-d %b %Y" }}</span>
+                                <strong>{{ site.author.name }}</strong> <span class="text-muted"><i class="fa fa-clock-o"></i> {{ post.date | date_to_string }}</span>
                             </div>
                             <p>
                                 {{ post.content | strip_html | truncate:100 }}
