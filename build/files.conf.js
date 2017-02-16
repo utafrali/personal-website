@@ -19,7 +19,8 @@ module.exports = {
             'node_modules/bootstrap/dist/css/bootstrap.css',
             'node_modules/components-font-awesome/css/font-awesome.css',
             'node_modules/animate.css/animate.css',
-            'static/css/style.css'
+            // 'static/css/style.css'
+            'static/css/style-purify.css'
         ]
     }, {
         name: 'index page',
@@ -55,8 +56,9 @@ module.exports = {
             'node_modules/animate.css/animate.css',
             'node_modules/components-font-awesome/css/font-awesome.css',
             'node_modules/font-mfizz/dist/font-mfizz.css',
-            'static/css/style.css',
-            'static/css/project-sprite.css'
+            'static/css/project-sprite.css',
+            // 'static/css/style.css'
+            'static/css/style-purify.css'
         ]
     }, {
         name: 'blog pages',
@@ -98,7 +100,8 @@ module.exports = {
             'node_modules/gritter/jquery.gritter.css',
             'search/css/cb-search.css',
             'static/css/pygments.css',
-            'static/css/style.css'
+            // 'static/css/style.css'
+            'static/css/style-purify.css'
         ]
     }]
 }
