@@ -1,8 +1,7 @@
 var UglifyJS = require('uglify-js');
 var CleanCSS = require('clean-css');
-var purify = require('purify-css');
-require('shelljs/global');
 var fs = require('fs');
+require('shelljs/global');
 require('colors');
 
 var fileConf = require('./files.conf.js')
@@ -20,7 +19,6 @@ sed('-i', /(.*)[0-9]{8}(.*)/, '$1' + nowDateStr + '$2', '_includes/index_head.ht
 sed('-i', /(.*)[0-9]{8}(.*)/, '$1' + nowDateStr + '$2', '_includes/head.html');
 sed('-i', /(.*)[0-9]{8}(.*)/, '$1' + nowDateStr + '$2', '_includes/category.html');
 sed('-i', /(.*)[0-9]{8}(.*)/, '$1' + nowDateStr + '$2', '404.html');
-
 
 // compress js files function
 function compressjs(pagename, filename, filelist) {
