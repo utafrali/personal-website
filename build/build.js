@@ -1,5 +1,6 @@
 var UglifyJS = require('uglify-js');
 var CleanCSS = require('clean-css');
+var purify = require('purify-css');
 require('shelljs/global');
 var fs = require('fs');
 require('colors');

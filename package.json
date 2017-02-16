@@ -4,7 +4,7 @@
   "description": "npm config file for personal-website",
   "main": "",
   "scripts": {
-    "build": "node build/build.js",
+    "build": "node build/purify-css.js && node build/build.js",
     "dev": "node build/dev-server.js"
   },
   "repository": {
