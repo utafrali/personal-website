@@ -1,6 +1,6 @@
 # skills section data
 
 label: Ability
-id : cs
+id: cs
 aspects: Linux/Shell, Python, HTML/CSS, jQuery, AngularJS, Ionic, Vuejs, MongoDB, MySQL, Docker
-percentage: 80, 90, 65, 85, 80, 70, 70, 70, 80, 75
+percentage: 80, 90, 70, 85, 80, 70, 75, 75, 80, 75
