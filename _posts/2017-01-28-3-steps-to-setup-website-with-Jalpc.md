@@ -30,6 +30,8 @@ So, if you like this website <https://jarrekk.github.io/Jalpc/> or <http://www.j
 
 	* **CNAME**: If you wanna release website at your own domain name: edit it and create `gh-pages` branch; if you want to use *github_username.github.io*: leave it blank.
 
+	* Go to repo's settings panel, config **GitHub Pages** section to make sure website is released.
+
 3. Push changes to your github repository and view your website, done!
 
 From now on, you can post your blog to this website by creating md files at `post/` directory and push it to GitHub, you can clear files at this directory before you post blogs.
