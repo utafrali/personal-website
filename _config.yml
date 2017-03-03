@@ -18,7 +18,7 @@ author:  # change following line to your infomation.
   email: me@jack003.com  # Leave blank if you don't have now
   facebook_username: jiakunnj  # Leave blank if you don't have now
   github_username: jarrekk  # Leave blank if you don't have now
-  avatar: /static/assets/img/landing/Jack.jpg  # upload your avatar at directory and edit it.
+  avatar: /static/assets/img/landing/Jack.jpeg  # upload your avatar at directory and edit it.
   skill_icon1:
     - name: icon-python
     - name: icon-shell
