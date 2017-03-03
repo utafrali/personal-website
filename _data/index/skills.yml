@@ -2,5 +2,5 @@
 
 label: Ability
 id: cs
-aspects: Linux/Shell, Python, HTML/CSS, jQuery, AngularJS, Ionic, Vuejs, MongoDB, MySQL, Docker
-percentage: 80, 90, 70, 85, 80, 70, 75, 75, 80, 75
+aspects: Linux/Shell, Python, HTML/CSS, jQuery, AngularJS, Ionic, Vuejs, MongoDB, MySQL, Elasticsearch, Docker
+percentage: 80, 90, 70, 85, 80, 70, 75, 75, 80, 70, 75
