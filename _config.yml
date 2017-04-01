@@ -37,6 +37,9 @@ disqus:
 ga:
   id: UA-93473370-1
 
+go:
+  id: GTM-NHMS8GD
+
 ## growingIO
 gio:
   # id: a49d4901c7853da9
