@@ -6,7 +6,7 @@
   text-transform: uppercase;
 }
 
-.stat-list {
+.stat-list,.todo-list {
   list-style: none;
 }
 
@@ -188,6 +188,14 @@ body.fixed-nav #wrapper #page-wrapper {
 
 body.top-navigation.fixed-nav #wrapper #page-wrapper {
   margin-top: 0;
+}
+
+body.fixed-nav.fixed-nav-basic .navbar-fixed-top {
+  left: 220px;
+}
+
+body.fixed-nav.fixed-nav-basic.body-small .navbar-fixed-top {
+  left: 0;
 }
 
 .body-small .navbar-fixed-top {
@@ -648,6 +656,48 @@ button.dim:active:before {
 
 .vertical-align h2,.vertical-align h3 {
   margin: 0;
+}
+
+.todo-list {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.todo-list.small-list>li,.todo-list>li {
+  background: #f3f3f4;
+  margin-bottom: 2px;
+  color: inherit;
+}
+
+.todo-list.small-list {
+  font-size: 12px;
+}
+
+.todo-list.small-list>li {
+  border-left: none;
+  border-right: none;
+  border-radius: 4px;
+  padding: 6px 6px 6px 12px;
+}
+
+.todo-list.small-list .btn-xs {
+  border-radius: 5px;
+  font-size: 10px;
+  line-height: 1.5;
+  padding: 1px 2px 1px 5px;
+}
+
+.todo-list>li {
+  border-left: 6px solid #e7eaec;
+  border-right: 6px solid #e7eaec;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.todo-list>li .label {
+  font-size: 9px;
+  margin-left: 10px;
 }
 
 .glyphicon.fa {

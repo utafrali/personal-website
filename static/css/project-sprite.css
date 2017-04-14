@@ -60,3 +60,11 @@
     margin: 0 auto;
     background-position: 0 -200px;
 }
+
+.sprite-ztool {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 0 auto;
+    background-position: -100px -200px;
+}
