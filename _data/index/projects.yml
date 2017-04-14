@@ -52,4 +52,4 @@
   i18n: ztool
   gh_user: Z-Tool
   img: ztool
-  desc: Z-Tool is a personal project for myself, we can use PC/WeChat to query some information. Backend API is written by Flask.
+  desc: Z-Tool is a personal project for myself, we can use PC/WeChat to query some information. Front end is written by VueJS/WeChat mini app framework, backend API is written by Flask.
