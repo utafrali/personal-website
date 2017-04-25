@@ -156,6 +156,48 @@ server {
 }
 ```
 
+## 自动化定期更新证书
+
+Let's Encrypt 证书有效期是3个月，我们可以通过 certbot 来自动化续期。
+
+在 Arch Linux 上，我们通过 systemd 来自动执行证书续期任务。
+
+```
+$ sudo vim /etc/systemd/system/letsencrypt.service
+[Unit]
+Description=Let's Encrypt renewal
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/certbot renew --quiet --agree-tos
+ExecStartPost=/bin/systemctl reload nginx.service
+```
+
+然后增加一个 systemd timer 来触发这个服务：
+
+```
+$ sudo vim /etc/systemd/system/letsencrypt.timer
+[Unit]
+Description=Monthly renewal of Let's Encrypt's certificates
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+```
+
+启用服务，开启 timer：
+
+```
+$ sudo systemctl enable letsencrypt.timer
+$ sudo systemctl start letsencrypt.timer
+```
+上面两条命令执行完毕后，你可以通过`systemctl list-timers`列出所有 systemd 定时服务。当中可以找到`letsencrypt.timer`并看到运行时间是明天的凌晨12点。
+
+在其他 Linux 发行版本中，可以使用 crontab 来设定定时任务，自行 Google 吧。
+
 ## 用专业在线工具测试你的服务器 SSL 安全性
 
 [Qualys SSL Labs](https://www.ssllabs.com/ssltest/index.html)提供了全面的 SSL 安全性测试，填写你的网站域名，给自己的 HTTPS 配置打个分。
