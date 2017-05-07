@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Uğur Tafrali
+title: Uğur Tafralı
 description: Ugur's blog, use Jekyll and github pages.
 keywords: Jack,Jalpc,blog,Jekyll,github,gh-pages
 baseurl: ""
@@ -11,13 +11,13 @@ img_path: /static/assets/img/blog
 
 # author
 author:
-  name: Jarrekk
-  first_name: Kun
-  last_name: Jia
-  cv: http://cv.jarrekk.com
-  email: me@jarrekk.com
-  facebook_username: jiakunnj
-  github_username: jarrekk
+  name: Uğur Tafralı
+  first_name: Uğur
+  last_name: Tafralı
+  cv: http://cv.ugurtafrali.com
+  email: tafraliugur@gmail.com
+  facebook_username: 
+  github_username: utafrali
   avatar: /static/assets/img/landing/Jack.jpeg
   skill_icon1:
     - name: icon-python
@@ -29,7 +29,7 @@ author:
 
 # comment
 disqus:
-  name: jalpc
+  #name: jalpc
   #public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
 
 # analytics
